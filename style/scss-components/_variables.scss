@@ -1,0 +1,22 @@
+$fzname: 13px;
+$fzstatus: 10px; 
+
+@mixin title--daily {
+    font-weight: bold;
+    font-size: 12px; 
+    color: #777777;
+}
+
+@mixin quantity--daily {
+    font-weight: 900;
+    font-size: 20px;
+    background: linear-gradient(to left, #EE7055,#FD5272); 
+    -webkit-background-clip: text;  
+    color: transparent;
+}
+
+@mixin change--daily {
+    font-weight: bold;
+    font-size: 12px;
+    color: #BFBFBF;
+}
